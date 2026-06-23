@@ -1,0 +1,17 @@
+# Model + External API keys
+OPENAI_API_KEY=...
+OPENWEATHER_API_KEY=...
+CURRENCYFREAKS_API_KEY=...
+
+# Couchbase Configuration
+CB_CONNECTION_STRING=couchbases://cb...
+CB_USERNAME=acme_user
+CB_PASSWORD=Password123!
+CB_BUCKET=travel-sample
+
+# Agent Catalog Configuration
+AGENT_CATALOG_CONN_STRING=couchbases://cb...
+AGENT_CATALOG_USERNAME=acme_user
+AGENT_CATALOG_PASSWORD=Password123!
+AGENT_CATALOG_BUCKET=agent_catalog
+AGENT_CATALOG_CONN_ROOT_CERTIFICATE=cert.pem

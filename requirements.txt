@@ -1,0 +1,25 @@
+# Foundation
+couchbase==4.5.0
+extra-platforms==5.0.0
+click==8.1.8
+click-extra==4.15.0
+python-dotenv>=1.0.0
+
+# The Agentic Stack
+openai>=1.30.0
+langchain==0.3.27
+langchain-couchbase==0.4.0
+langchain-openai==0.3.35
+langgraph==0.5.4
+langgraph-sdk==0.1.74
+langgraph-prebuilt==0.5.2
+
+# Web API
+fastapi==0.115.0
+uvicorn[standard]==0.30.6
+
+# The Agent Catalog Stack
+agentc==1.0.0
+agentc-langchain==1.0.0
+agentc-langgraph==1.0.0
+sentence-transformers==5.3.0

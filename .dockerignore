@@ -1,0 +1,10 @@
+venv/
+__pycache__/
+*.pyc
+*.pyo
+.env
+.git/
+.agent-activity/
+.model-cache/
+frontend/node_modules/
+frontend/.next/

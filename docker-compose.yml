@@ -1,0 +1,21 @@
+services:
+  api:
+    build: .
+    ports:
+      - "8001:8001"
+    env_file: .env
+    volumes:
+      - ./.agent-activity:/app/.agent-activity
+      - ./.model-cache:/app/.model-cache
+    restart: unless-stopped
+
+  frontend:
+    build:
+      context: ./frontend
+      args:
+        API_URL: http://api:8001
+    ports:
+      - "3001:3001"
+    depends_on:
+      - api
+    restart: unless-stopped

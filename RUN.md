@@ -16,7 +16,7 @@ export PYTHONPATH=$PYTHONPATH:.
 ## 2. Start the backend API
 
 ```bash
-uvicorn api:app --reload --port 8000
+uvicorn api:app --reload --port 8001
 ```
 
 ## 3. Start the frontend
@@ -26,7 +26,15 @@ cd frontend
 npm run dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) in your browser.
+Open [http://localhost:3001](http://localhost:3001) in your browser.
+
+## Docker Compose (alternative)
+
+```bash
+docker compose up --build
+```
+
+Open [http://localhost:3001](http://localhost:3001) in your browser.
 
 ## CLI mode (no frontend)
 
